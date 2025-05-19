@@ -16,3 +16,17 @@ print(Sensor2)
 print(Sensor3)
 
 #We are seeing their values.
+#That is easy right? But there are more ways to do same thing which it will be better if we know.
+#First we assinged values with strings. Altough there are many data types we can talk about besides that we are going to focus on strings.
+#To understand data types dear python gives us very easy way to find it which using type command.Here how it is-->
+#We already had some datas sooo---
+print(type(Sensor1))
+#You see. The 'str' means string. What if we put numbers. Lets create another variable with numbers.
+
+number =  1
+
+print(number)
+print(type(number))
+
+# Thats an integer! Well have you seen the difference between strings and integers.
+# If you didn't we put the strings between ('') these little guys. If you want to add a strings to your variable you need to make sure you have pair of those.
