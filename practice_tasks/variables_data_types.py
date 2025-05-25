@@ -92,3 +92,19 @@ animals.remove("Tiger")
 print(len(animals))
 
 print(animals)#By the way you have to do the changes before printing the list other ways it wont work. For example if we would have type len command before removing the tiger to output would be 4
+
+#So we have added our animals we are getting close. But someone need to check them right? So we need staffs. 
+#What kind of staffs do zoos have? Maybe a zookeeper, vets, cleaners or guardians for the security.
+#Lets add them all!
+
+zoo_staff = {
+    "vet": {"name": "Emily", "age": 45},
+    "zookeeper": {"name": "Sam", "age": 32},
+    "cleaner": {"name": "Luis", "age": 29},
+    "guardian": {"name": "Ava", "age": 38}
+}
+#So here our staffs. We used dictionaries and as you see its little bit diffrent from the lists. It has curly braces.
+#It is like regular dictionary. The only different thing is you creating the meanings. 
+#So lets try to call someone.Our vet Emily.
+
+print(zoo_staff["vet"]["name"])#Here she is 
