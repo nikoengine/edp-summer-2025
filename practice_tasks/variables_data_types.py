@@ -43,7 +43,7 @@ print(animal.lower())   # makes all letters lowercase
 print(animal.startswith("E"))  # checks if the string starts with 'E'
 print(len(animal))  # gives us the length of the string 
 
-#There are bunch of other methods check it from here https://www.w3schools.com/python/python_strings.asp
+#There are bunch of other features for strings check it from here https://www.w3schools.com/python/python_strings.asp
 
 #So everythings cool but as we spoke about integer before there are 2 more data types would work for you. 
 #But what is a data? Data types tell Python what kind of data we’re working with.
@@ -92,7 +92,7 @@ animals.remove("Tiger")
 print(len(animals))
 
 print(animals)#By the way you have to do the changes before printing the list other ways it wont work. For example if we would have type len command before removing the tiger to output would be 4
-
+#For more information please visit here https://www.w3schools.com/python/python_lists.asp
 #So we have added our animals we are getting close. But someone need to check them right? So we need staffs. 
 #What kind of staffs do zoos have? Maybe a zookeeper, vets, cleaners or guardians for the security.
 #Lets add them all!
@@ -108,3 +108,5 @@ zoo_staff = {
 #So lets try to call someone.Our vet Emily.
 
 print(zoo_staff["vet"]["name"])#Here she is 
+#https://www.w3schools.com/python/python_dictionaries.asp
+
