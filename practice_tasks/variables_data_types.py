@@ -8,14 +8,14 @@
 Sensor1 = 'humidity'
 Sensor2 = 'motion'
 Sensor3 = 'temperature'
-sensor4 = 'cleaning_sensor'
+Sensor4= 'cleaning_sensor'
 
 #Since I'm trying too build a zoo sensor system my variables will be related to that.
 #Now we created values for our variables and when we print them--
 print(Sensor1)
 print(Sensor2)
 print(Sensor3)
-print(sensor4)
+print(Sensor4)
 
 #We are seeing their values.
 #That is easy right? But there are more ways to do same thing which it will be better if we know.
